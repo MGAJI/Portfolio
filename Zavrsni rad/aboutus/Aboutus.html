@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XY Travel</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+    </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>  
+    <header class="header">
+    <div class="container">
+        <nav class="nav">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            
+            <ul>
+                <li> <a href="../Index.html">Home</a></li>
+                <li><a href="../aboutus/Aboutus.html">About us</a></li>
+                <li><a href="../gallery/Gallery.html">Gallery</a></li> 
+                <li><a href="../contact.html">Contact</a></li>  
+            </ul></div><!--end.menu-->
+        </nav><!--end.nav--> 
+        <div class="agency">
+            <img src="Logo.svg" alt="Logo">
+            <h1>XY Travel</h1>
+        </div><!--end.agency-->
+
+    </div><!--end.container-->
+
+</header><!--end.header-->
+<div class="wraper"><div class="aboutus">
+<h1>About us</h1>
+<p>“Remember that happiness is a way of travel, not a destination.”</p>
+<p>Our agents will take the time to understand your unique travel interests and aspirations, until we “get you.” We then use our education, first-hand travel experience and relationships with airlines, car, hotel, resort, tour and cruise supplier partners to make sure you enjoy an exceptional personalized travel experience that will create memories to last a lifetime.</p>
+</div><!--end.aboutus--></div>
+<div class="arashiyama">
+    <img src="Arashiyama.jpg" alt="Arashiyama">
+</div>
+<footer class="footer">
+    <div class="container">
+        <p>Follow us</p>
+        <div class="socials">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+        </div>
+    </div>
+</footer><!--end.footer-->
+<script>
+    const menuIcon = document.querySelector('.menu i');
+const menuList = document.querySelector('.menu ul');
+
+menuIcon.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+});
+ </script> 
+</body>
